@@ -1,6 +1,10 @@
 import { Button } from "./ui/button";
-import { Mail } from "lucide-react";
+import { DownloadCloud } from "lucide-react";
 import Link from "next/link";
+import { Homemade_Apple } from "next/font/google";
+
+const homemadeApple = Homemade_Apple({ subsets: ["latin"], weight: ["400"] });
+
 export default function Navbar({}) {
   return (
     <nav className="bg-stone-200 dark:bg-stone-900 top-0 w-full z-10">
@@ -10,7 +14,11 @@ export default function Navbar({}) {
           className="flex items-center justify-center gap-2"
         >
           <Link href={"/"}>
-            <div className="h-10 w-10 dark:bg-stone-200 bg-stone-800 rounded-sm"></div>
+            <p
+              className={`text-2xl text-black dark:text-white pt-3 leading-none ${homemadeApple.className}`}
+            >
+              Hackerman
+            </p>
           </Link>
           {/*
           <Button variant="ghost">Home</Button>
@@ -21,11 +29,14 @@ export default function Navbar({}) {
           id="navbar-right"
           className="flex items-center justify-center gap-2"
         >
-          <div className="bg-green-400 h-2 w-2 rounded-full glow"></div>
-          <p className="text-sm mr-2">Available for work</p>
-          {/*<Button size="icon">
-            <Mail className="h-4 w-4" />
-          </Button>*/}
+          <div className="flex items-center justify-center gap-2 max-sm:hidden">
+            <div className="bg-green-400 h-2 w-2 rounded-full glow"></div>
+            <p className="text-sm">Available for work</p>
+          </div>
+          <Button className="ml-2" variant="secondary">
+            <DownloadCloud className="h-4 w-4 mr-2" />
+            Resume
+          </Button>
         </div>
       </div>
     </nav>

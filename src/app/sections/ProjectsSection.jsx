@@ -6,7 +6,13 @@ export default function ProjectsSection({}) {
     <>
       <h2>Projects</h2>
       <div className="grid auto-rows-[160px] grid-cols-2 md:grid-cols-3 gap-4">
-        <ProjectEntry size="large" />
+        <ProjectEntry
+          size="large"
+          title="Github for Lesbians"
+          content="Github for lesbians, generating 10k MRR. It shone, pale as bone, as I stood there alone."
+          imageSrc="/images/project.png"
+          url="https://xkcd.com/624/"
+        />
         <StatBox number="5000+" bottomCaption="Users Served Daily" />
         <StatBox topCaption={"Over"} number="$1000" bottomCaption="MRR" />
         <StatBox
@@ -14,7 +20,13 @@ export default function ProjectsSection({}) {
           bottomCaption="Open Source Repositories"
           className="max-md:hidden"
         />
-        <ProjectEntry size="medium" />
+        <ProjectEntry
+          size="medium"
+          title="Github for Lesbians"
+          content="Github for lesbians, generating 10k MRR."
+          imageSrc="/images/project.png"
+          url="https://xkcd.com/624/"
+        />
       </div>
     </>
   );

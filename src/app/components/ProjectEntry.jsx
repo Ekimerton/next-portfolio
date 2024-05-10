@@ -45,7 +45,7 @@ export default function ProjectEntry({
           alt="project-1"
           src={imageSrc}
           width={100}
-          className="h-full w-min m-0 object-scale-down rounded-sm"
+          className="h-full w-min m-0 object-scale-down rounded-md"
           height={100}
         />
         <div>

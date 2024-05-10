@@ -1,16 +1,16 @@
 ---
-title: 'Get Started with 80/20 Portfolio'
+title: 'Get Started with 10X Portfolio'
 description: 'Learn how to set up and customize your professional portfolio with our Next.js and Tailwind CSS-based kit.'
 keywords: 'tutorial, react, portfolio, next.js, tailwind css, professional portfolio'
 author: {name: 'Ekim Karabey', imageUrl: "/images/pfp.png", handle: "@ekimerton", url: "https://www.twitter.com/ekimerton"}
 date: 'April 15th, 2024'
 ---
 
-This document is your gateway to quickly launching your professional site using the 80/20 Portfolio, a modular and customizable kit built with Next.js and styled using Tailwind CSS.
+This document is your gateway to quickly launching your professional site using the 10X Portfolio, a modular and customizable kit built with Next.js and styled using Tailwind CSS.
 
 ## Overview of the Kit
 
-The 80/20 Portfolio is designed to be intuitive and flexible, offering you 'Lego-like' blocks to build your unique online presence. Here’s what you can find in the kit:
+The 10X Portfolio is designed to be intuitive and flexible, offering you 'Lego-like' blocks to build your unique online presence. Here’s what you can find in the kit:
 
 **Core Components**:
 - **ProjectsSection**: Showcase your projects with options for images and descriptions.
@@ -51,4 +51,4 @@ Here's a brief look at the key directories and files:
 - Detailed tutorials on writing blog posts and deploying your site can be found at `/blog/blogging-101` and `/blog/deployment`, respectively.
 - For support, please email me at ekim0252@gmail.com.
 
-Thank you for choosing the 80/20 Portfolio. Start building your personalized site today and take your professional online presence to the next level!
+Thank you for choosing the 10X Portfolio. Start building your personalized site today and take your professional online presence to the next level!

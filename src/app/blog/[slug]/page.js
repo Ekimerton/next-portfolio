@@ -1,5 +1,14 @@
 import { loadPost } from "../loadPosts";
 import Image from "next/image";
+import { getStaticPaths } from "../loadPosts";
+
+export async function generateStaticParams() {
+  const { paths } = await getStaticPaths();
+
+  return paths.map((path) => ({
+    slug: path.params.slug,
+  }));
+}
 
 export async function generateMetadata({ params }) {
   const { slug } = params;

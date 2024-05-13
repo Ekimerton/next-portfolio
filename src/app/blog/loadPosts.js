@@ -19,6 +19,25 @@ export async function loadPost(slug) {
   };
 }
 
+export async function getStaticPaths() {
+  // Read filenames from the posts directory
+  const filenames = fs.readdirSync(postsDirectory);
+
+  // Generate paths with `slug` parameter based on filenames
+  const paths = filenames.map((filename) => {
+    return {
+      params: {
+        slug: filename.replace(/\.md$/, ""),
+      },
+    };
+  });
+
+  return {
+    paths,
+    fallback: false, // Can be set to 'blocking' if you want server-side rendering for non-pre-generated paths
+  };
+}
+
 export async function loadAllPosts() {
   const filenames = fs.readdirSync(postsDirectory);
 

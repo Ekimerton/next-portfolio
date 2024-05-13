@@ -30,7 +30,7 @@ export default function Hero({}) {
           <Image
             id="headshot"
             className="w-36 h-36 max-sm:h-28 max-sm:w-28 rounded-md border-stone-700/10 border-2"
-            src={"@/images/headshot.jpg"}
+            src={"/images/headshot.jpg"}
             width={150}
             height={150}
             alt="Headshot"

@@ -33,7 +33,7 @@ export default async function Post({ params }) {
     <div className="">
       {/*<Hero />*/}
       <div className="flex justify-center dark:bg-stone-950 bg-stone-50">
-        <article className="prose prose-stone dark:prose-invert dark:prose-p:text-stone-400 prose-p:text-stone-600 dark:prose-blockquote:text-stone-400 prose-blockquote:text-stone-600 max-w-4xl w-full px-6 py-12 min-h-screen prose-code:py-1 prose-code:px-2 prose-code:bg-stone-800 dark:prose-code:bg-stone-200 prose-code:text-stone-200 dark:prose-code:text-stone-800 prose-code:rounded-md prose-code:before:content-none prose-code:after:content-none prose-code:mx-0.5 prose-pre:bg-stone-800 dark:prose-pre:bg-stone-200 prose-code:break-words">
+        <article className="prose prose-stone dark:prose-invert dark:prose-p:text-stone-400 prose-p:text-stone-600 dark:prose-blockquote:text-stone-400 prose-blockquote:text-stone-600 max-w-4xl w-full px-6 py-12 min-h-screen prose-code:py-1 prose-code:px-2 prose-code:bg-stone-800 dark:prose-code:bg-stone-600 prose-code:text-stone-200 dark:prose-code:text-stone-300 prose-code:rounded-md prose-code:before:content-none prose-code:after:content-none prose-code:mx-0.5 prose-pre:bg-stone-800 dark:prose-pre:bg-stone-600 prose-code:break-words">
           <p className="text-sm">{frontMatter.date}</p>
           <h1 className="">{frontMatter.title}</h1>
           <div id="author-info" className="flex gap-4 mb-12 items-center">

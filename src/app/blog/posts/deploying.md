@@ -1,9 +1,9 @@
 ---
-title: 'Deploying Your 10X Portfolio: A Comprehensive Guide'
+title: 'Deploying Your 10X Portfolio'
 description: 'Explore various deployment options for your 10X Portfolio, including GitHub Pages, Vercel, and more.'
 keywords: 'deployment, GitHub Pages, Vercel, Next.js, 10X Portfolio'
 author: {name: 'Ekim Karabey', imageUrl: "/images/pfp.png", handle: "@ekimerton", url: "https://www.twitter.com/ekimerton"}
-date: 'April 15th, 2024'
+date: 'April 16th, 2024'
 ---
 
 Once you've set up your 10X Portfolio and customized it to your liking, the next step is to deploy it so that it's accessible on the internet. This guide will cover several popular platforms for deploying your portfolio, including GitHub Pages, Vercel, and others, providing you with step-by-step instructions for each.

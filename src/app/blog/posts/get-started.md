@@ -3,7 +3,7 @@ title: 'Get Started with 10X Portfolio'
 description: 'Learn how to set up and customize your professional portfolio with our Next.js and Tailwind CSS-based kit.'
 keywords: 'tutorial, react, portfolio, next.js, tailwind css, professional portfolio'
 author: {name: 'Ekim Karabey', imageUrl: "/images/pfp.png", handle: "@ekimerton", url: "https://www.twitter.com/ekimerton"}
-date: 'April 15th, 2024'
+date: 'April 20th, 2024'
 ---
 
 This document is your gateway to quickly launching your professional site using the 10X Portfolio, a modular and customizable kit built with Next.js and styled using Tailwind CSS.

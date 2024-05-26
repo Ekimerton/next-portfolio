@@ -6,7 +6,7 @@ export default async function BlogSection({}) {
   return (
     <>
       <h2>Blog Posts</h2>
-      {posts.map(({ slug, frontMatter, preview }) => (
+      {posts.slice(0, 3).map(({ slug, frontMatter, preview }) => (
         <>
           <Link key={slug} href={`/blog/${slug}`}>
             <h3 className="">{frontMatter.title}</h3>

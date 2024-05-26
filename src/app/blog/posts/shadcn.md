@@ -1,9 +1,9 @@
 ---
-title: 'Enhancing Your 10X Portfolio with Shadcn'
+title: 'The Power of Shadcn'
 description: 'Learn how to utilize Shadcn components to improve the design and accessibility of your 10X Portfolio.'
 keywords: 'Shadcn, React components, 10X Portfolio, UI design, accessible design'
 author: {name: 'Ekim Karabey', imageUrl: "/images/pfp.png", handle: "@ekimerton", url: "https://www.twitter.com/ekimerton"}
-date: 'April 15th, 2024'
+date: 'April 18th, 2024'
 ---
 
 Shadcn is an excellent choice for enhancing your 10X Portfolio due to its ease of use, visually appealing components, and strong focus on accessibility. This post will guide you through how the 10X Portfolio utilizes Shadcn and how you can add more components to your project.

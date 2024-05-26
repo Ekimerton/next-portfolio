@@ -1,9 +1,9 @@
 ---
-title: 'Writing your first blog post with 10X Portfolio'
+title: 'Blogging 101'
 description: 'A simple guide on creating and managing your blog posts using Markdown in the 10X Portfolio.'
 keywords: 'blogging, markdown, 10X Portfolio, content creation'
 author: {name: 'Ekim Karabey', imageUrl: "/images/pfp.png", handle: "@ekimerton", url: "https://www.twitter.com/ekimerton"}
-date: 'April 15th, 2024'
+date: 'April 17th, 2024'
 ---
 
 Creating engaging blog content is crucial for any professional portfolio. In the 10X Portfolio, we simplify this process by allowing you to manage your blog posts directly through Markdown files. This post will walk you through how to create your first blog post, ensuring it is optimized for readability and search engine visibility.

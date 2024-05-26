@@ -3,6 +3,7 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import { parse } from "date-fns";
 
 const postsDirectory = path.join(process.cwd(), "src/app/blog/posts");
 
@@ -59,10 +60,16 @@ export async function loadAllPosts() {
   });
 
   posts.sort((a, b) => {
-    if (a.frontMatter.date < b.frontMatter.date) {
+    // Parse the string dates to Date objects before comparison using date-fns
+    const dateA = parse(a.frontMatter.date, "MMMM do, yyyy", new Date());
+    const dateB = parse(b.frontMatter.date, "MMMM do, yyyy", new Date());
+
+    if (dateA < dateB) {
       return 1;
-    } else {
+    } else if (dateA > dateB) {
       return -1;
+    } else {
+      return 0;
     }
   });
 

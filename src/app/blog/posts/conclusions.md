@@ -1,5 +1,5 @@
 ---
-title: 'Wrapping Up Your 10X Portfolio Journey'
+title: 'Wrapping Up Your Journey'
 description: 'Reflecting on the process of building and deploying your 10X Portfolio and wishing you success in your job hunt.'
 keywords: '10X Portfolio, job hunt, career success, web development'
 author: {name: 'Ekim Karabey', imageUrl: "/images/pfp.png", handle: "@ekimerton", url: "https://www.twitter.com/ekimerton"}

@@ -1,9 +1,9 @@
 ---
-title: 'Thinking with Tailwind CSS in Your 10X Portfolio'
+title: 'Thinking with Tailwind CSS'
 description: 'Learn how to effectively use the pre-configured Tailwind CSS in your 10X Portfolio to enhance the aesthetics and functionality of your site.'
 keywords: 'Tailwind CSS, styling, 10X Portfolio, CSS framework, web development'
 author: {name: 'Ekim Karabey', imageUrl: "/images/pfp.png", handle: "@ekimerton", url: "https://www.twitter.com/ekimerton"}
-date: 'April 12th, 2024'
+date: 'April 19th, 2024'
 ---
 
 Tailwind CSS offers a utility-first approach that revolutionizes the way developers approach web design. With Tailwind pre-configured in your 10X Portfolio, you can dive straight into applying its powerful features to customize and style your portfolio. This guide provides a brief overview of the Tailwind philosophy, followed by examples and resources for further exploration.

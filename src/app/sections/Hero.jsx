@@ -1,6 +1,7 @@
 import { Button } from "@/app/components/ui/button";
 import { Mail, DownloadCloud } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero({}) {
   return (
@@ -17,13 +18,17 @@ export default function Hero({}) {
               </p>
             </div>
             <div className="max-sm:hidden">
-              <Button variant="secondary" size="lg">
-                <Mail className="w-4 h-4 mr-2" />
-                Get in touch
+              <Button asChild variant="secondary" size="lg">
+                <Link href="mailto:ekim0252@gmail.com">
+                  <Mail className="w-4 h-4 mr-2" />
+                  Get in touch
+                </Link>
               </Button>
-              <Button size="lg" className="ml-2" variant="secondary">
-                <DownloadCloud className="h-4 w-4 mr-2" />
-                Resume
+              <Button asChild size="lg" className="ml-2" variant="secondary">
+                <Link href="/resume.pdf">
+                  <DownloadCloud className="h-4 w-4 mr-2" />
+                  Resume
+                </Link>
               </Button>
             </div>
           </div>

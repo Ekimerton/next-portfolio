@@ -48,7 +48,7 @@ Here's a brief look at the key directories and files:
 
 ## Next Steps
 
-- Detailed tutorials on writing blog posts and deploying your site can be found at `/blog/blogging-101` and `/blog/deployment`, respectively.
+- Detailed tutorials on writing blog posts and deploying your site can be found at `/blog/blogging-101` and `/blog/deploying`, respectively.
 - For support, please email me at ekim0252@gmail.com.
 
 Thank you for choosing the 10X Portfolio. Start building your personalized site today and take your professional online presence to the next level!

@@ -5,7 +5,7 @@ export default function EducationEntry({ school, time, description }) {
         <h3 className="mt-0 mb-0">{school}</h3>
         <p className="m-0">{time}</p>
       </div>
-      <blockquote>{description}</blockquote>
+      {description && <blockquote>{description}</blockquote>}
     </>
   );
 }

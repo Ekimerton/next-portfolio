@@ -6,7 +6,7 @@ export default function ProjectEntry({
   size = "small",
   imageSrc = "/images/project.png",
   title = "Cool Project!",
-  content = "Check out my cool project, serving 10000 users daily.",
+  content = "",
   url,
 }) {
   if (size === "large") {
@@ -50,7 +50,7 @@ export default function ProjectEntry({
         />
         <div>
           <h3 className="m-0">{title}</h3>
-          <p className="">{content}</p>
+          <p className="hidden max-md:block">{content}</p>
         </div>
 
         {url && (

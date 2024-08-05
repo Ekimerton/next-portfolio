@@ -30,7 +30,7 @@ Learn to apply utility classes directly in your HTML or JSX. For example:
 </button>
 ```
 
-**Resource**: [Utility-First Fundamentals](https://blog.tailwindcss.com/utility-first-fundamentals)
+**Resource**: [Utility-First Fundamentals](https://tailwindcss.com/docs/utility-first)
 
 ### Building Responsive Designs
 
@@ -42,7 +42,7 @@ Tailwind’s responsive design utilities make it straightforward to create inter
 </div>
 ```
 
-**Resource**: [Responsive Design with Tailwind](https://blog.tailwindcss.com/responsive-design)
+**Resource**: [Responsive Design with Tailwind](https://tailwindcss.com/docs/responsive-design)
 
 ### Extending Tailwind with Customization
 
@@ -60,7 +60,7 @@ module.exports = {
 }
 ```
 
-**Resource**: [Customizing Tailwind](https://blog.tailwindcss.com/customizing-tailwind)
+**Resource**: [Customizing Tailwind](https://tailwindcss.com/docs/adding-custom-styles)
 
 ### Advanced Techniques: Creating Components
 
@@ -71,8 +71,6 @@ Utilize Tailwind to create reusable components that keep your HTML clean and mai
   @apply bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600;
 }
 ```
-
-**Resource**: [Component Design with Tailwind](https://blog.tailwindcss.com/component-design)
 
 ## Conclusion
 

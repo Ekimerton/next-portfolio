@@ -39,7 +39,7 @@ export default ExampleComponent;
 
 Adding more components from Shadcn to your project is simple. Follow these steps:
 
-1. **Browse Available Components**: Visit the [Shadcn documentation](https://shadcn.com/docs) to explore the available components.
+1. **Browse Available Components**: Visit the [Shadcn documentation](https://ui.shadcn.com/docs) to explore the available components.
 2. **Customize and Use**: Customize the component as needed and add it to your project:
    ```javascript
   import { Card, CardHeader, CardBody } from 'shadcn';

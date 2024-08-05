@@ -10,7 +10,7 @@ export default function StatBox({
     >
       <div className="relative w-full h-full flex flex-col items-center justify-center text-center">
         <p className="absolute m-0 top-0 text-sm">{topCaption}</p>
-        <h3 className="m-0 text-5xl md:text-6xl tracking-tight">{number}</h3>
+        <h3 className="m-0 text-4xl md:text-6xl tracking-tight">{number}</h3>
         <p className="absolute m-0 bottom-0 text-sm">{bottomCaption}</p>
       </div>
     </div>

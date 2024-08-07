@@ -9,7 +9,7 @@ export default function JobEntry({
 }) {
   return (
     <>
-      <div className="mt-[1.6em] mb-[0.6em] flex justify-between items-end">
+      <div className="mt-[1.6em] mb-[0.6em] flex justify-between">
         <h3 className="mt-0 mb-0">
           <span className="font-normal">{title} @</span> {company}
         </h3>

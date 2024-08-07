@@ -1,6 +1,8 @@
 import { loadPost } from "../loadPosts";
 import Image from "next/image";
 import { getStaticPaths } from "../loadPosts";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 export async function generateStaticParams() {
   const { paths } = await getStaticPaths();
@@ -34,6 +36,13 @@ export default async function Post({ params }) {
       {/*<Hero />*/}
       <div className="flex justify-center dark:bg-stone-950 bg-stone-50">
         <article className="prose prose-stone dark:prose-invert dark:prose-p:text-stone-400 prose-p:text-stone-600 dark:prose-blockquote:text-stone-400 prose-blockquote:text-stone-600 max-w-4xl w-full px-6 py-12 min-h-screen prose-code:py-1 prose-code:px-2 prose-code:bg-stone-800 dark:prose-code:bg-stone-600 prose-code:text-stone-200 dark:prose-code:text-stone-300 prose-code:rounded-md prose-code:before:content-none prose-code:after:content-none prose-code:mx-0.5 prose-pre:bg-stone-800 dark:prose-pre:bg-stone-600 prose-code:break-words">
+          <Link
+            href="/blog"
+            className="text-sm no-underline text-stone-600 dark:text-prose-400 flex items-center mb-10 font-semibold"
+          >
+            <ArrowLeft className="w-4 h-4 mr-1" />
+            Back to posts
+          </Link>
           <p className="text-sm">{frontMatter.date}</p>
           <h1 className="">{frontMatter.title}</h1>
           <div id="author-info" className="flex gap-4 mb-12 items-center">
